@@ -12,9 +12,3 @@ spec:
     - ReadWriteOnce
   hostPath:
     path: "/mnt/data"
-kind: StorageClass
-apiVersion: storage.k8s.io/v1
-metadata:
-  name: manual
-provisioner: kubernetes.io/no-provisioner
-volumeBindingMode: WaitForFirstConsumer
