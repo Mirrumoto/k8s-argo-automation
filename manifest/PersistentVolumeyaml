@@ -3,7 +3,7 @@ kind: PersistentVolume
 metadata:
   name: wl1-pv
 spec:
-  storageClassName: manual
+  storageClassName: default
   capacity:
     storage: 20Gi
   accessModes:
