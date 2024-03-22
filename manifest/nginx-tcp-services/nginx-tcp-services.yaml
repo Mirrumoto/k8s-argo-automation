@@ -5,5 +5,4 @@ metadata:
   namespace: ingress-nginx
 data:
   25565: "minecraft/minecraft-minecraft:25565"
-  25575: "minecraft/minecraft-minecraft:25575"
-  25565: "minecraft/minecraft-minecraft:25565"
+  25575: "minecraft/minecraft-minecraft-rcon:25575"
